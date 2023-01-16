@@ -17,7 +17,6 @@
                 </repository>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/salam00-pp/raptor-authorization-service</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
