@@ -3,9 +3,6 @@ package com.bhn.raptorauthorizationservice;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.security.SecureRandom;
-import java.util.Base64;
-
 @SpringBootApplication
 public class RaptorAuthorizationServiceApplication {
 
@@ -13,6 +10,7 @@ public class RaptorAuthorizationServiceApplication {
 
         SpringApplication.run(RaptorAuthorizationServiceApplication.class, args);
         //System.out.println(generateSafeToken());
+
 
     }
 //    public static String generateSafeToken() {

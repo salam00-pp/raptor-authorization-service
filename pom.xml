@@ -10,12 +10,19 @@
     </parent>
     <groupId>com.bhn</groupId>
     <artifactId>raptor-authorization-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
     <name>raptor-authorization-service</name>
     <description>raptor-authorization-service</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/salam00-pp/raptor-platform-security-auth</url>
+        </repository>
+    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -70,6 +77,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>raptor-security-${project.version}</finalName>
     </build>
 
 </project>
