@@ -20,7 +20,7 @@
         <repository>
             <id>github</id>
             <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/salam00-pp/raptor-platform-security-auth</url>
+            <url>https://maven.pkg.github.com/salam00-pp/raptor-authorization-service</url>
         </repository>
     </distributionManagement>
     <dependencies>
