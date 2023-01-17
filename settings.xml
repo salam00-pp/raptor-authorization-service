@@ -17,6 +17,8 @@
                 </repository>
                 <repository>
                     <id>github</id>
+                    <name>GitHub OWNER Apache Maven Packages</name>
+                    <url>https://maven.pkg.github.com/salam00-pp/raptor-authorization-service</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
@@ -29,7 +31,7 @@
         <server>
             <id>github</id>
             <username>salam00-pp</username>
-            <password>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</password>
+            <password>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</password>
         </server>
     </servers>
 </settings>
