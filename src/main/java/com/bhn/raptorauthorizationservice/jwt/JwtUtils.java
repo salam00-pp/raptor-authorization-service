@@ -33,6 +33,7 @@ public class JwtUtils {
   public void init() {
     String secret = Base64.getEncoder().encodeToString(securityProperties.getSecret().getBytes());
     this.secretKey = Keys.hmacShaKeyFor(secret.getBytes(StandardCharsets.UTF_8));
+
   }
 
   public User getUserFromJwtToken(String token) {
