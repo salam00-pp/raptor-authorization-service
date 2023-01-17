@@ -26,4 +26,15 @@ public class RaptorSecurityAutoConfiguration {
         return "Raptor security auth initiated successfully.";
     }
 
+    @Bean
+    public AuthEntryPointJwt authEntryPointJwt(){
+        return new AuthEntryPointJwt();
+    }
+
+    @Bean
+    public JwtUtils jwtUtils()
+    {
+        return new JwtUtils();
+    }
+
 }
